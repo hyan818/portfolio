@@ -1,0 +1,37 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Yan Huang'
+theme = 'typo'
+
+[params]
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = "Hi!"
+homeIntroContent = """
+I am a Software Engineer at New Zealand. I'm studying Master Degrees of Software Engineer at Yoobee College of Creative Innovation.
+Before that, I already have many years experience of Software Engineer as Java developer. I'm also interested in other languages like Go, Typescript and Python.
+I am passionate about building applications that provide effective solutions, and I believe technology should be used to solve problems, not create unnecessary complexity.
+"""
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/yan-huang-nz/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/hyan818"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
